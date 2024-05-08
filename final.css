@@ -11,23 +11,20 @@
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Georgia', serif;
-	color: #344F3A;
-	background-color: #f5f3bb;
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF !important;
+	background-color: #0072A0;
 	padding: 10px;
 }
 .right {
 	text-align: right;
-  float: right;
-  width: 80%;
-  padding-left: 300px;
+  width: 100%;
 }
 .left {
 	text-align: left;
-  float: left;
-  width: 80%;
-  padding-right: 300px;
-}
+  width: 100%;
+  Margin-right: 5%;
+  padding-top: 50px;
 }
 .img-alternate {
 	float: left;
@@ -35,8 +32,25 @@
 	margin-left: 5%;
 }
 p{
-	font-family: 'Times New Roman', serif;
+	font-family: "Bitter", serif;
 	font-size: 20px;
+	font-weight: 400;
+}
+strong{
+	font-family: "Bitter", serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #134b5f
+}
+h1{
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+	color: #FFFFFF;
+}
+h2 {
+	font-size: 70px;
+	font-family: "Oswald", sans-serif;
+	color: #FFFFFF;
 }
 h4 {
 	font-style: italic;
@@ -45,29 +59,33 @@ h4 {
 }
 h3 {
 	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+	color: #0072A0;
 }
-
+iframe{
+	float: left;
+	min-width: 30%;
+}
 img{
 	float: right;
 	margin-right: 5%;
 	margin-left: 5%;
-	;
 }
+
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
- .list {
- 	float: left;
- 	min-width: 90%;
- 	margin-left: 10px;
- 	margin-bottom: 30px;
- 	margin-top: 30px;
+ .footer p {
+ 	background-color: skyblue;
+ }
+ #list {
+ 	padding-left: 10px;
+ }
+ img {
+ 	float: none;
  }
  iframe {
- 	min-width: 90%;
- 	margin-right: 10px;
- }
- title{
- 	font style: Poppins;
+ 	float: none;
+ 	width: 100% !important;
  }
 }
